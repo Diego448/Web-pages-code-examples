@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" keywords="HTML5, test, input" description="This is a simple page to show almost all input tags available in HTML5">
+		<title>HTML5 Input test</title>
+	</head>
+	<body>
+		<header>
+			<h1>HTML5 Input test</h1>
+		</header>
+		<section>
+			<header>
+				<h1>Button</h1>
+			</header>
+			<!--Default behavior of button if type is no especified-->
+			<form>
+				<button type="submit" name="button1" value="">Submit</button>
+				<input type="text">
+				<button type="reset" name="button2" value="">Reset</button>
+				<button type="button" name="button3" value="">Button</button>
+			</form>
+		</section>
+		<section>
+			<header>
+				<h1>Checkbox</h1>
+			</header>
+			<form>
+				<input type="checkbox" checked>
+				<input type="checkbox" required>
+				<input type="submit">
+			</form>
+		</section>
+		<section>
+			<header>
+				<h1>Color</h1>
+			</header>
+			<input type="color">
+			<input type="color" autocomplete>
+		</section>
+		<section>
+			<header>
+				<h1>Date</h1>
+			</header>
+			<input type="date">
+			<input type="date" value="01-07">
+			<input type="date" min="01-07" max="01-12">
+			<input type="date" step="2">
+		</section>
+		<section>
+			<header>
+				<h1>Datetime</h1>
+			</header>
+			<input type="datetime">
+			<input type="datetime" value="1994-01-01T00:00">
+			<input type="datetime" min="2020-01-01T00:00" max="2020-01-01T:00:00">
+			<input type="datetime" step="60">
+		</section>
+		<section>
+			<header>
+				<h1>Datetime-local</h1>
+			</header>
+			<input type="datetime-local">
+			<input type="datetime-local" value="1994-01-01T00:00.0000-08:00">
+			<input type="datetime-local" min="2020-01-01T00:00.0000-08:00" max="2020-01-01T:00:00.0000-08:00">
+			<input type="datetime-local" step="60">
+		</section>
+		<section>
+			<header>
+				<h1>Email</h1>
+			</header>
+			<form>
+				<input type="email">
+				<input type="email" value="example@example.com">
+				<input type="email" multiple>
+				<input type="email" placeholder="Email">
+				<input type="email" required>
+				<input type="submit">
+			</form>
+		</section>
+		<section>
+			<header>
+				<h1>File</h1>
+			</header>
+			<form>
+				<input type="file">
+				<br>
+				<input type="file" accept="image/*">
+				<br>
+				<input type="file" multiple>
+				<br>
+				<input type="file" required>
+				<br>
+				<input type="submit">
+			</form>
+		</section>
+		<section>
+			<header>
+				<h1>Image</h1>
+			</header>
+			<input type="image" src="BTS.png" alt="Image input">
+			<input type="image" src="#" alt="Image input">
+		</section>
+		<section>
+			<header>
+				<h1>Month</h1>
+			</header>
+			<input type="month">
+			<input type="month" value="2000-10">
+			<input type="month" min="1992-02" max="2010-04">
+			<input type="month" step="3">
+		</section>
+		<section>
+			<header>
+				<h1>Number</h1>
+			</header>
+			<input type="number">
+			<input type="number" value="4">
+			<input type="number" min="0" max="48">
+			<input type="number" step="4">
+		</section>
+		<section>
+			<header>
+				<h1>Password</h1>
+			</header>
+			<input type="password">
+			<input type="password" pattern="[0-9]{4}[a-z]{4}">
+			<input type="password" maxlength="10">
+		</section>
+		<section>
+			<header>
+				<h1>Radio</h1>
+			</header>
+			<form>
+				<input type="radio" name="a" checked>
+				<input type="radio" name="a" required>
+				<input type="submit">
+			</form>
+		</section>
+		<section>
+			<header>
+				<h1>Range</h1>
+			</header>
+			<input type="range">
+			<input type="range" min="3" max="40">
+			<input type="range" list="ranges">
+			<input type="range" step="5">
+			<datalist id="ranges">
+				<option value="4">4</option>
+				<option value="8" label="8"></option>
+			</datalist>
+		</section>
+		<section>
+			<header>
+				<h1>Search</h1>
+			</header>
+			<input type="search">
+			<input type="search" placeholder="Search">
+			<input type="search" autocomplete>
+		</section>
+		<section>
+			<header>
+				<h1>Telephone</h1>
+			</header>
+			<input type="tel">
+			<input type="tel" value="0000000">
+		</section>
+		<section>
+			<header>
+				<h1>Time</h1>
+			</header>
+			<input type="time">
+			<input type="time" value="00:00" readonly>
+		</section>
+		<section>
+			<header>
+				<h1>Url</h1>
+			</header>
+			<input type="url">
+			<input type="url" value="http://www.google.com">
+		</section>
+		<section>
+			<header>
+				<h1>Week</h1>
+			</header>
+			<input type="week">
+			<input type="week" value="2000-W04">
+			<input type="week" min="1992-W02" max="2010-W04">
+			<input type="week" step="3">
+		</section>
+	</body>
+</html>
