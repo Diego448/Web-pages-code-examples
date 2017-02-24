@@ -1,0 +1,45 @@
+div span {
+	display: block;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+div span, p, blockquote {
+	float: left;
+	width: 294px;
+	height: 294px;
+	background-color: white;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	margin-right: 25px;
+	margin-bottom: 30px;
+}
+div :nth-child(4n){
+	margin-right: 0;
+}
+div :nth-child(2n) {
+	border: 1px solid red;
+}
+div :nth-child(2n+1) {
+	border: 1px solid brown;
+}
+div :nth-child(4n) {
+	background-color: black;
+}
+div :nth-last-child(2) {
+	background-color: orange;
+}
+div :last-child {
+	background-color: orange;
+}
+div p:first-of-type {
+	color: white;
+}
+div blockquote:nth-of-type(3) + span {
+	color: blue;
+}
+div blockquote:nth-of-type(3) {
+	color: gray;
+}
