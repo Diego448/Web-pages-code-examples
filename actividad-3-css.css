@@ -1,0 +1,45 @@
+header {
+	background-color: blue;
+	margin: 0;
+	margin-bottom: 1%;
+	text-align: center;
+	padding: 0;
+	height: 50px;
+}
+main {
+	background-color: blue;
+	width: 69%;
+	margin-right: 1%;
+	padding: 0;
+	float: left;
+	height: 400px;
+}
+p, h1, ul, li, span {
+	margin: 0;
+	padding: 0;
+}
+aside {
+	width:28%;
+	float: left;
+	padding: 0;
+	margin: 0; 
+	background-color: blue;
+	padding-left: 2%;
+	height: 400px;
+	margin-bottom: 1%;
+}
+footer {
+	clear: both;
+	margin-top: 100px;
+	background-color: blue;
+	height: 50px;
+	text-align: center;
+}
+p, h1, span, li {
+	color: white;
+	text-align: center;
+}
+ul {
+	padding-top: 60%;
+	list-style: none;
+}

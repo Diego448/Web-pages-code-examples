@@ -1,0 +1,51 @@
+p, h1, ul, li, span {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #303;
+	margin: 1%;
+	height: 50px;
+}
+aside {
+	width: 23%;
+	float: left;
+	margin: 1%;
+	background-color: #303;
+	height: 600px;
+}
+main {
+	width: 73%;
+	float: left;
+	margin: 1%;
+	height: 600px;
+}
+li {
+	list-style: none;
+}
+footer {
+	clear: both;
+	margin: 1%; 
+	background-color: #303;
+	height: 50px;
+}
+#div1 {
+	margin: 0 1% 2% 0;
+	width: 69%;
+	background-color: #303;
+	float: left;
+	height: 300px;
+}
+#div2 {
+	margin: 0 0 2% 1%;
+	width: 29%;
+	background-color: #303;
+	float: left;
+	height: 300px;
+}
+#div3 {
+	clear: both;
+	margin-top: 1%;
+	background-color: #303;
+	height: 280px;
+}
