@@ -1,0 +1,78 @@
+thead tr:first-child {
+	background-image: url("header-background.gif");
+	height: 69px;
+	text-align: left;
+}
+table {
+	width: 574px;
+	border: 4px solid #0c2a62;
+	border-spacing: 0px;
+	border-radius: 10px;
+	caption-side: bottom;
+	border-bottom: none;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+tfoot {
+	background-image: url("footer-background-gradient.png");
+}
+tbody tr, tfoot tr {
+	height: 48px;
+}
+thead tr:last-of-type th{
+	background-color: #fff;
+	border-top: 2px solid #0c2a62;
+	border-bottom: 2px solid #0c2a62;
+	border-left: 1px solid #c7cddb;
+	font: 13px Arial;
+	font-weight: bolder;
+	height: 48px;
+	color: #1f3d71;
+}
+tbody {
+	background-color: #f0f0f0;
+}
+tbody th {
+	background-color: #dde4f3;
+	font: 13px Arial;
+	font-weight: bolder;
+	color: #1f3d71;
+	text-align: left;
+}
+tbody th, td {
+	border: 1px solid #c7cddb;
+	text-align: center;
+}
+thead img {
+	position: relative;
+	left: 32%;
+}
+thead span {
+	padding-left: 3%;
+	font: 27px Arial;
+	color: #fff;
+}
+tbody td {
+	font: 11px Arial;
+	font-weight: bolder;
+	color: #747474;
+}
+tfoot td, tfoot th {
+	font: 13px Arial;
+	font-weight: bolder;
+	color: #070707; 
+}
+caption {
+	font: 10px Arial;
+	color: #8a8a8a;
+	border: 4px solid #0c2a62;
+	border-top: none;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+tbody th {
+	text-align: left;
+}
+tbody tr {
+	height: 36px;
+}
