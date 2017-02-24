@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Actividad 3 Javascript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function tablero(x, y) {
+				var caracter = "#";
+				var linea = "";
+				for (var i = 0; i < y; i++) {
+					for (var j = 0; j < x; j++) {
+						linea = linea + caracter;
+						if (caracter === "#") {
+							caracter = " ";
+						}else {
+							caracter = "#";
+						}
+					}
+					console.log(linea);
+					linea = "";
+				}
+			}
+		</script>
+	</body>
+</html>

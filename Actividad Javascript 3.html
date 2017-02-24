@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function tablero(x, y) {
+			var patron1;
+			var patron2;
+			for (var i = 0; i < y; i++) {
+					for (var j = 0; j < x; j++) {
+					if ((j + 1) % 2 === 0) {
+						patron1 += " ";
+					}else {
+						patron1 += "#";
+					}
+				}
+			}
+		}
+	</script>
+</head>
+<body onload="tablero()">
+
+</body>
+</html>
