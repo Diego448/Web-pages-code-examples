@@ -1,0 +1,192 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,200,500,600,700,800,900);
+#fontFamily span:first-of-type {
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+#fontFamily span:nth-of-type(2) {
+	font-family: "Goudy Bookletter 1911", sans-serif;
+}
+#fontFamily span:nth-of-type(3) {
+	font-family: sans-serif;
+}
+#fontFamily span:nth-of-type(4) {
+	font-family: serif;
+}
+#fontFamily span:nth-of-type(5) {
+	font-family: fantasy;
+}
+#fontFamily span:nth-of-type(6) {
+	font-family: cursive;
+}
+#fontFamily span:nth-of-type(7) {
+	font-family: monospace;
+}
+#fontFamily span:nth-of-type(8) {
+	font-family: inherit;
+}
+#fontSize span:first-of-type {
+	font-size: xx-small;
+}
+#fontSize span:nth-of-type(2) {
+	font-size: x-small;
+}
+#fontSize span:nth-of-type(3) {
+	font-size: small;
+}
+#fontSize span:nth-of-type(4) {
+	font-size: medium;
+}
+#fontSize span:nth-of-type(5) {
+	font-size: large;
+}
+#fontSize span:nth-of-type(6) {
+	font-size: x-large;
+}
+#fontSize span:nth-of-type(7) {
+	font-size: xx-large;
+}
+#fontSize span:nth-of-type(8) {
+	font-size: smaller;
+}
+#fontSize span:nth-of-type(9) {
+	font-size: larger;
+}
+#fontSize span:nth-of-type(10) {
+	font-size: 14px;
+}
+#fontSize span:nth-of-type(11) {
+	font-size: 3em;
+}
+#fontSize span:nth-of-type(12) {
+	font-size: 140%;
+}
+#fontSize span:nth-of-type(13) {
+	font-size: 14pt;
+}
+#fontSize span:nth-of-type(14) {
+	font-size: inherit;
+}
+#lineHeight p:nth-of-type(1) {
+	line-height: normal;
+}
+#lineHeight p:nth-of-type(2) {
+	line-height: 4;
+}
+#lineHeight p:nth-of-type(3) {
+	line-height: 2em;
+}
+#lineHeight p:nth-of-type(4) {
+	line-height: 50%;
+}
+#lineHeight p:nth-of-type(5) {
+	line-height: inherit;
+}
+#lineHeight div:nth-of-type(1) {
+	line-height: 50px;
+}
+#lineHeight div:nth-of-type(1) div{
+	line-height: 50%;
+}
+#lineHeight p {
+	line-height: inherit;
+}
+#textDecoration span:nth-of-type(1) {
+	text-decoration: underline;
+}
+#textDecoration span:nth-of-type(2) {
+	text-decoration: overline;
+}
+#textDecoration span:nth-of-type(3) {
+	text-decoration: line-through;
+}
+#textDecoration span:nth-of-type(4) {
+	text-decoration: blink;
+}
+#textDecoration span:nth-of-type(5) {
+	text-decoration: none;
+}
+#textDecoration span:nth-of-type(6) {
+	text-decoration: underline overline;
+}
+#textDecoration p:nth-of-type(1) span {
+	text-decoration: underline overline line-through;
+}
+#fontStyle span:nth-of-type(1) {
+	font-style: normal;
+}
+#fontStyle span:nth-of-type(2) {
+	font-style: italic;
+}
+#fontStyle span:nth-of-type(3) {
+	font-style: oblique;
+}
+#fontStyle span:nth-of-type(4) {
+	font-style: inherit;
+}
+#fontStyle p:nth-of-type(1) {
+	font-style: italic;
+}
+#fontStyle p:nth-of-type(1) span:first-of-type{
+	font-style: oblique;
+}
+#fontStyle p:nth-of-type(1) span:first-of-type span{
+	font-style: normal;
+}
+#fontWeight {
+	font-family: 'Raleway', sans-serif;
+}
+#fontWeight span:nth-of-type(1) {
+	font-weight: normal;
+}
+#fontWeight span:nth-of-type(2) {
+	font-weight: bold;
+}
+#fontWeight span:nth-of-type(3) {
+	font-weight: lighter;
+}
+#fontWeight span:nth-of-type(4) {
+	font-weight: bolder;
+}
+#fontWeight span:nth-of-type(5) {
+	font-weight: 100;
+}
+#fontWeight span:nth-of-type(6) {
+	font-weight: 200;
+}
+#fontWeight span:nth-of-type(7) {
+	font-weight: 300;
+}
+#fontWeight span:nth-of-type(8) {
+	font-weight: 400;
+}
+#fontWeight span:nth-of-type(9) {
+	font-weight: 500;
+}
+#fontWeight span:nth-of-type(10) {
+	font-weight: 600;
+}
+#fontWeight span:nth-of-type(11) {
+	font-weight: 700;
+}
+#fontWeight span:nth-of-type(12) {
+	font-weight: 800;
+}
+#fontWeight span:nth-of-type(13) {
+	font-weight: 900;
+}
+#fontWeight span:nth-of-type(14) {
+	font-weight: inherit;
+}
+#fontVariant span:nth-of-type(1) {
+	font-variant: normal;
+}
+#fontVariant span:nth-of-type(2) {
+	font-variant: small-caps;
+}
+#fontVariant span:nth-of-type(3) {
+	font-variant: inherit;
+}
+/*body {
+	font-style: italic;
+	line-height: 4;
+	font-size: 2em;
+}*/
