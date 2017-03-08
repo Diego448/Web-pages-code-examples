@@ -1,0 +1,28 @@
+﻿header 
+{
+    height: 120px;
+    background-color: Black;
+}
+
+aside 
+{
+    float: left;
+    width: 30%;
+    height: 450px;
+    background-color: Gray;
+}
+
+main 
+{
+    width: 70%;
+    background-color: Silver;
+    height: 450px;
+    float: right;
+}
+
+footer 
+{
+    height: 80px;
+    background-color: Black;
+    clear: both;
+}
